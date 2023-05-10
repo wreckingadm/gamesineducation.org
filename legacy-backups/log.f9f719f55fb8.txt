@@ -1,0 +1,372 @@
+0000.000 (0) Opened log file at time: Wed, 10 May 2023 01:24:14 +0000 on http://gamesineducation.org
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 7.4.33 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.7.41-log (max packet size=67108864) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 31.4M | 34M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 1259444.3 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.026 (0) Semaphore (fd, gie_options) being initialised
+0000.041 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.049 (0) Set semaphore last lock (fd) time to 2023-05-10 01:24:14
+0000.052 (0) Semaphore lock (fd) complete
+0000.063 (0) Backup run: resumption=0, nonce=f9f719f55fb8, file_nonce=f9f719f55fb8 begun at=1683681854 (0s ago), job type=backup
+0000.070 (0) Scheduling a resumption (1) after 300 seconds (1683682154) in case this run gets aborted
+0000.086 (0) Checking if we have a zip executable available
+0000.089 (0) Testing: /usr/bin/zip
+0000.096 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.109 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.113 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.117 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.120 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.132 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.135 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.143 (0) Working binary zip found: /usr/bin/zip
+0000.154 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.158 (0) Creation of backups of directories: beginning
+0000.171 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.198 (0) Total entities for the zip file: 206 directories, 1207 files (0 skipped as non-modified), 24.1 MB
+0000.207 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.212 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.217 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.222 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.228 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.233 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.238 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.243 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.247 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.252 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.255 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.9 MB, 1207 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.299 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: size is now: 6.40 MB
+0001.308 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 1100 files added (on-disk size: 6563.9 KB)
+0001.314 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.tmp: 1200 files added (on-disk size: 6563.9 KB)
+0001.484 (0) Creating zip file manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.list-temp.tmp)
+0001.493 (0) Successfully created zip file manifest (size: 106150)
+0001.582 (0) Created plugins zip (0) - 7259.3 KB in 1.4 s (5172.8 KB/s) (sha1: 2f68ba0ad3ac8bd579f3d3f8fff5fd136ebcb430, sha256: c80253e0b9ba6832c9382c6a5bfcbe8772b8124a0ac40a99b0c07bb9b27309d0)
+0001.597 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.601 (0) No remote despatch: user chose no remote backup service
+0001.605 (0) Recording as successfully uploaded: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip
+0001.612 (0) Deleting zip manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip.list.tmp)
+0001.622 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.626 (0) Number of backup sets in history: 0; groups (db): 1
+0001.629 (0) Number of backup sets in history: 0; groups (files): 1
+0001.633 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0001.653 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.678 (0) Total entities for the zip file: 112 directories, 527 files (0 skipped as non-modified), 14.8 MB
+0001.684 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.691 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.697 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.704 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.709 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.185 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.tmp: size is now: 12.10 MB
+0002.201 (0) Creating zip file manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.list-temp.tmp)
+0002.207 (0) Successfully created zip file manifest (size: 35616)
+0002.344 (0) Created themes zip (0) - 12391.2 KB in 0.7 s (18188.7 KB/s) (sha1: 48fd1a7e98a73d0c209bbfe94f1ab2ee24314242, sha256: a498e8b0a6c397bf54df99bb6e4999646db6cefad5e2d276a32b0f87f3209917)
+0002.356 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.360 (0) No remote despatch: user chose no remote backup service
+0002.364 (0) Recording as successfully uploaded: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip
+0002.373 (0) Deleting zip manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip.list.tmp)
+0002.382 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.386 (0) Number of backup sets in history: 0; groups (db): 1
+0002.390 (0) Number of backup sets in history: 0; groups (files): 1
+0002.394 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0002.419 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0002.422 (0) Looking for candidates to backup in: /homepages/15/d168418311/htdocs/hosted_clients/gamesineducation/wp-content/uploads
+0002.424 (0) finding files: 2011: adding to list (1)
+0002.427 (0) finding files: 2012: adding to list (2)
+0002.430 (0) finding files: 2013: adding to list (3)
+0002.433 (0) finding files: 2014: adding to list (4)
+0002.436 (0) finding files: 2015: adding to list (5)
+0002.438 (0) finding files: 2016: adding to list (6)
+0002.441 (0) finding files: 2017: adding to list (7)
+0002.445 (0) finding files: 2018: adding to list (8)
+0002.448 (0) finding files: 2019: adding to list (9)
+0002.451 (0) finding files: 2020: adding to list (10)
+0002.453 (0) finding files: 2021: adding to list (11)
+0002.456 (0) finding files: 2022: adding to list (12)
+0002.459 (0) finding files: 2023: adding to list (13)
+0002.461 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0002.485 (0) Total entities for the zip file: 119 directories, 714 files (0 skipped as non-modified), 206.2 MB
+0002.491 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.496 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 714 files batched, 194 (194) added so far); re-opening (prior size: 0 KB)
+0004.332 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: size is now: 25.20 MB
+0004.337 (0) A useful amount of data was added after this amount of zip processing: 2.5 s (normalised: 2.5 s, rate: 10412.4 KB/s)
+0004.343 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.4743700027466, normalised_time=2.4586084751631, max_time=4.3401169776917, data points known=1, old_max_bytes=26214400, new_max_bytes=63973748)
+0004.349 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: 200 files added (on-disk size: 25824.7 KB)
+0004.352 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: 300 files added (on-disk size: 25824.7 KB)
+0004.355 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 61 MB added on this batch (61.3 MB, 714 files batched, 122 (316) added so far); re-opening (prior size: 25824.7 KB)
+0006.478 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: size is now: 85.80 MB
+0006.486 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.6 s, rate: 23934.3 KB/s)
+0006.492 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.6227760314941, normalised_time=2.6102386842731, max_time=6.4886739253998, data points known=1, old_max_bytes=63973748, new_max_bytes=147052639)
+0006.500 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: 400 files added (on-disk size: 87887.9 KB)
+0006.505 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: 500 files added (on-disk size: 87887.9 KB)
+0006.510 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: 600 files added (on-disk size: 87887.9 KB)
+0006.515 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: 700 files added (on-disk size: 87887.9 KB)
+0013.907 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.tmp: size is now: 193.00 MB
+0013.921 (0) Creating zip file manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.list-temp.tmp)
+0013.927 (0) Successfully created zip file manifest (size: 39934)
+0015.805 (0) Created uploads zip (0) - 197675.3 KB in 13.3 s (14821.3 KB/s) (sha1: f34f89fd6f44799ab8be7b541fd5b32619d687d8, sha256: b28d8c8320f6cf7f8c8aa2cdff9d87319ecb69261da2d4f77862d6e3dcc3c111)
+0015.815 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.818 (0) No remote despatch: user chose no remote backup service
+0015.822 (0) Recording as successfully uploaded: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip
+0015.830 (0) Deleting zip manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip.list.tmp)
+0015.837 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0015.841 (0) Number of backup sets in history: 0; groups (db): 1
+0015.844 (0) Number of backup sets in history: 0; groups (files): 1
+0015.847 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0015.863 (0) Beginning backup of other directories found in the content directory (index: 0)
+0015.868 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0015.871 (0) Looking for candidates to backup in: /homepages/15/d168418311/htdocs/hosted_clients/gamesineducation/wp-content
+0015.875 (0) finding files: gallery: adding to list (1)
+0015.879 (0) finding files: ngg: adding to list (2)
+0015.883 (0) finding files: themes: skipping: this is the themes directory
+0015.886 (0) finding files: upgrade: skipping: excluded by options
+0015.889 (0) finding files: uploads: skipping: this is the uploads directory
+0015.892 (0) finding files: index.php: adding to list (3)
+0015.895 (0) finding files: plugins: skipping: this is the plugins directory
+0015.899 (0) finding files: updraft: skipping: this is the updraft directory
+0015.916 (0) Total entities for the zip file: 67 directories, 486 files (0 skipped as non-modified), 511.3 MB
+0015.922 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.927 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.932 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.937 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 140.2 MB added on this batch (140.4 MB, 486 files batched, 359 (359) added so far); re-opening (prior size: 0 KB)
+0023.849 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.tmp: size is now: 140.30 MB
+0023.858 (0) A useful amount of data was added after this amount of zip processing: 8 s (normalised: 8 s, rate: 17976.6 KB/s)
+0023.868 (0) Zip: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.tmp: 400 files added (on-disk size: 143632.1 KB)
+0023.872 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 140.2 MB added on this batch (140.4 MB, 486 files batched, 73 (432) added so far); re-opening (prior size: 143632.1 KB)
+0028.665 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.tmp: size is now: 280.70 MB
+0028.673 (0) A useful amount of data was added after this amount of zip processing: 4.8 s (normalised: 4.8 s, rate: 29898.8 KB/s)
+0028.681 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.8098878860474, normalised_time=4.8030713053646, max_time=28.67678809166, data points known=1, old_max_bytes=147052639, new_max_bytes=209715200)
+0028.687 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (111.3 MB, 26 (458) files added so far); last ratio: 1; re-opening (prior size: 287457 KB)
+0032.630 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.tmp: size is now: 392.10 MB
+0032.641 (0) Zip size is at/near split limit (392.1 MB / 400 MB) - bumping index (from: 0)
+0036.504 (0) Creating zip file manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.list-temp.tmp)
+0036.510 (0) Successfully created zip file manifest (size: 22666)
+0036.518 (0) Created others zip (0) - 401482.1 KB in 16.7 s (23978.9 KB/s) (checksums: sha1: 8fb373b925f9bd8b56a5f35f8b6e9552ff93796f, sha256: 507b168298c51ae095cbc419f98903924317952b27552c00832f220953970d28)
+0036.533 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0036.537 (0) No remote despatch: user chose no remote backup service
+0036.540 (0) Recording as successfully uploaded: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip
+0036.547 (0) Deleting zip manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip.list.tmp)
+0036.555 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0036.560 (0) Number of backup sets in history: 0; groups (db): 1
+0036.564 (0) Number of backup sets in history: 0; groups (files): 1
+0036.567 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0036.581 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (5 MB, 1 (459) files added so far); re-opening (prior size: 0 KB)
+0036.788 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others2.zip.tmp: size is now: 5.00 MB
+0041.217 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others2.zip.tmp: size is now: 119.10 MB
+0041.227 (0) Creating zip file manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others2.zip.list-temp.tmp)
+0041.234 (0) Successfully created zip file manifest (size: 1450)
+0042.358 (0) Created others zip (1) - 121960.4 KB in 5.8 s (20903.3 KB/s) (sha1: ba72deee63195ac1ae548c84177302f3d703784b, sha256: 97c6f2b35134fae3eaf2798d690f187a495abd1bd9f305880dfdfabb20e8ee8d)
+0042.368 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0042.371 (0) No remote despatch: user chose no remote backup service
+0042.375 (0) Recording as successfully uploaded: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others2.zip
+0042.383 (0) Deleting zip manifest (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others2.zip.list.tmp)
+0042.392 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0042.397 (0) Number of backup sets in history: 0; groups (db): 1
+0042.401 (0) Number of backup sets in history: 0; groups (files): 1
+0042.405 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0042.432 (0) Saving backup status to database (elements: 9)
+0042.441 (0) Beginning creation of database dump (WordPress DB)
+0042.444 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0042.454 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0042.478 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `gie_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCR (truncated - 1439 bytes total)
+0042.481 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0042.498 (0) Table gie_options: Total expected rows (via COUNT): 341
+0042.501 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.522 (0) Table gie_options: Rows added in this batch (next record: 1968728): 337 (uncompressed bytes in this segment=215120) in 0.03 seconds
+0042.538 (0) Table gie_options: finishing file(s) (2, 34.4 KB)
+0042.549 (0) Table gie_users: Total expected rows (via COUNT): 15
+0042.553 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.562 (0) Table gie_users: Rows added in this batch (next record: 19): 15 (uncompressed bytes in this segment=3301) in 0.01 seconds
+0042.579 (0) Table gie_users: finishing file(s) (2, 1.5 KB)
+0042.603 (0) Table gie_usermeta: Total expected rows (via COUNT): 332
+0042.607 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.620 (0) Table gie_usermeta: Rows added in this batch (next record: 439): 332 (uncompressed bytes in this segment=23177) in 0.02 seconds
+0042.641 (0) Table gie_usermeta: finishing file(s) (2, 5.4 KB)
+0042.655 (0) Table gie_commentmeta: Total expected rows (via COUNT): 5
+0042.659 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.667 (0) Table gie_commentmeta: Rows added in this batch (next record: 4957): 5 (uncompressed bytes in this segment=1097) in 0.02 seconds
+0042.688 (0) Table gie_commentmeta: finishing file(s) (2, 0.6 KB)
+0042.699 (0) Table gie_comments: Total expected rows (via COUNT): 198
+0042.702 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.722 (0) Table gie_comments: Rows added in this batch (next record: 1608): 198 (uncompressed bytes in this segment=102322) in 0.02 seconds
+0042.738 (0) Table gie_comments: finishing file(s) (2, 18 KB)
+0042.747 (0) Table gie_links: Total expected rows (via COUNT): 8
+0042.750 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.757 (0) Table gie_links: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2024) in 0.01 seconds
+0042.768 (0) Table gie_links: finishing file(s) (2, 0.7 KB)
+0042.786 (0) Table gie_postmeta: Total expected rows (approximate): 1956
+0042.818 (0) Table gie_postmeta: Rows added in this batch (next record: 8805): 1776 (uncompressed bytes in this segment=221405) in 0.04 seconds
+0042.834 (0) Table gie_postmeta: finishing file(s) (2, 27.3 KB)
+0043.302 (0) Table gie_posts: Total expected rows (approximate): 1853
+0043.663 (0) Table gie_posts: Rows added in this batch (next record: 3997): 1910 (uncompressed bytes in this segment=9108657) in 0.82 seconds
+0043.678 (0) Table gie_posts: finishing file(s) (2, 750.7 KB)
+0043.687 (0) Table gie_term_relationships: Total expected rows (approximate): 51
+0043.693 (0) Table gie_term_relationships: Rows added in this batch (next record: 100000): 51 (uncompressed bytes in this segment=1413) in 0.01 seconds
+0043.702 (0) Table gie_term_relationships: finishing file(s) (2, 0.5 KB)
+0043.712 (0) Table gie_term_taxonomy: Total expected rows (via COUNT): 48
+0043.714 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.720 (0) Table gie_term_taxonomy: Rows added in this batch (next record: 48): 48 (uncompressed bytes in this segment=2399) in 0.01 seconds
+0043.751 (0) Table gie_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0043.765 (0) Table gie_termmeta: Total expected rows (via COUNT): 0
+0043.773 (0) Table gie_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=587) in 0.01 seconds
+0043.790 (0) Table gie_termmeta: finishing file(s) (2, 0.4 KB)
+0043.802 (0) Table gie_terms: Total expected rows (via COUNT): 48
+0043.806 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.819 (0) Table gie_terms: Rows added in this batch (next record: 48): 48 (uncompressed bytes in this segment=3240) in 0.02 seconds
+0043.831 (0) Table gie_terms: finishing file(s) (2, 1.2 KB)
+0043.846 (0) Table gie_g_circles: Total expected rows (via COUNT): 1
+0043.850 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.862 (0) Table gie_g_circles: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1160) in 0.02 seconds
+0043.873 (0) Table gie_g_circles: finishing file(s) (2, 0.5 KB)
+0043.888 (0) Table gie_g_maps: Total expected rows (via COUNT): 1
+0043.891 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.896 (0) Table gie_g_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1859) in 0.01 seconds
+0043.908 (0) Table gie_g_maps: finishing file(s) (2, 0.7 KB)
+0043.919 (0) Table gie_g_markers: Total expected rows (via COUNT): 2
+0043.922 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.927 (0) Table gie_g_markers: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=919) in 0.01 seconds
+0043.949 (0) Table gie_g_markers: finishing file(s) (2, 0.5 KB)
+0043.960 (0) Table gie_g_polygones: Total expected rows (via COUNT): 1
+0043.964 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.968 (0) Table gie_g_polygones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1368) in 0.01 seconds
+0043.980 (0) Table gie_g_polygones: finishing file(s) (2, 0.7 KB)
+0043.991 (0) Table gie_g_polylines: Total expected rows (via COUNT): 1
+0043.995 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.999 (0) Table gie_g_polylines: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2082) in 0.01 seconds
+0044.012 (0) Table gie_g_polylines: finishing file(s) (2, 1 KB)
+0044.026 (0) Table gie_ngg_album: Total expected rows (via COUNT): 1
+0044.029 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.032 (0) Table gie_ngg_album: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=849) in 0.01 seconds
+0044.047 (0) Table gie_ngg_album: finishing file(s) (2, 0.5 KB)
+0044.059 (0) Table gie_ngg_gallery: Total expected rows (via COUNT): 10
+0044.062 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.067 (0) Table gie_ngg_gallery: Rows added in this batch (next record: 12): 10 (uncompressed bytes in this segment=1593) in 0.01 seconds
+0044.077 (0) Table gie_ngg_gallery: finishing file(s) (2, 0.6 KB)
+0044.098 (0) Table gie_ngg_pictures: Total expected rows (via COUNT): 203
+0044.102 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.116 (0) Table gie_ngg_pictures: Rows added in this batch (next record: 297): 203 (uncompressed bytes in this segment=134481) in 0.03 seconds
+0044.129 (0) Table gie_ngg_pictures: finishing file(s) (2, 15.7 KB)
+0044.141 (0) Table gie_wpgmza: Total expected rows (via COUNT): 1
+0044.143 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.149 (0) Table gie_wpgmza: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1065) in 0.01 seconds
+0044.161 (0) Table gie_wpgmza: finishing file(s) (2, 0.5 KB)
+0044.169 (0) Table gie_wpgmza_categories: Total expected rows (via COUNT): 0
+0044.179 (0) Table gie_wpgmza_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=564) in 0.01 seconds
+0044.194 (0) Table gie_wpgmza_categories: finishing file(s) (2, 0.3 KB)
+0044.202 (0) Table gie_wpgmza_category_maps: Total expected rows (via COUNT): 0
+0044.205 (0) Table gie_wpgmza_category_maps: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=492) in 0.00 seconds
+0044.216 (0) Table gie_wpgmza_category_maps: finishing file(s) (2, 0.3 KB)
+0044.233 (0) Table gie_wpgmza_maps: Total expected rows (via COUNT): 1
+0044.236 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.244 (0) Table gie_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1910) in 0.02 seconds
+0044.258 (0) Table gie_wpgmza_maps: finishing file(s) (2, 0.7 KB)
+0044.269 (0) Table gie_wpgmza_polygon: Total expected rows (via COUNT): 0
+0044.274 (0) Table gie_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.01 seconds
+0044.286 (0) Table gie_wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+0044.297 (0) Table gie_wpgmza_polylines: Total expected rows (via COUNT): 0
+0044.299 (0) Table gie_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.01 seconds
+0044.678 (0) Table gie_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0044.682 (0) Skipping table (lacks our prefix (gie_)): kcmayer_commentmeta
+0044.685 (0) Skipping table (lacks our prefix (gie_)): kcmayer_comments
+0044.688 (0) Skipping table (lacks our prefix (gie_)): kcmayer_events
+0044.691 (0) Skipping table (lacks our prefix (gie_)): kcmayer_events_categories
+0044.694 (0) Skipping table (lacks our prefix (gie_)): kcmayer_links
+0044.697 (0) Skipping table (lacks our prefix (gie_)): kcmayer_options
+0044.699 (0) Skipping table (lacks our prefix (gie_)): kcmayer_postmeta
+0044.702 (0) Skipping table (lacks our prefix (gie_)): kcmayer_posts
+0044.704 (0) Skipping table (lacks our prefix (gie_)): kcmayer_term_relationships
+0044.706 (0) Skipping table (lacks our prefix (gie_)): kcmayer_term_taxonomy
+0044.709 (0) Skipping table (lacks our prefix (gie_)): kcmayer_terms
+0044.711 (0) Skipping table (lacks our prefix (gie_)): kcmayer_usermeta
+0044.713 (0) Skipping table (lacks our prefix (gie_)): kcmayer_users
+0044.716 (0) Skipping table (lacks our prefix (gie_)): wp_commentmeta
+0044.718 (0) Skipping table (lacks our prefix (gie_)): wp_comments
+0044.721 (0) Skipping table (lacks our prefix (gie_)): wp_links
+0044.724 (0) Skipping table (lacks our prefix (gie_)): wp_options
+0044.729 (0) Skipping table (lacks our prefix (gie_)): wp_postmeta
+0044.732 (0) Skipping table (lacks our prefix (gie_)): wp_posts
+0044.735 (0) Skipping table (lacks our prefix (gie_)): wp_term_relationships
+0044.738 (0) Skipping table (lacks our prefix (gie_)): wp_term_taxonomy
+0044.742 (0) Skipping table (lacks our prefix (gie_)): wp_terms
+0044.746 (0) Skipping table (lacks our prefix (gie_)): wp_usermeta
+0044.752 (0) Skipping table (lacks our prefix (gie_)): wp_users
+0044.758 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_options.table.tmpr1968729.gz (1/50/fopen): adding to final database dump
+0044.762 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_options.table.gz (2/50/fopen): adding to final database dump
+0044.766 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_users.table.tmpr20.gz (3/50/fopen): adding to final database dump
+0044.774 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_users.table.gz (4/50/fopen): adding to final database dump
+0044.778 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_usermeta.table.tmpr440.gz (5/50/fopen): adding to final database dump
+0044.781 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_usermeta.table.gz (6/50/fopen): adding to final database dump
+0044.783 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_commentmeta.table.tmpr4958.gz (7/50/fopen): adding to final database dump
+0044.786 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_commentmeta.table.gz (8/50/fopen): adding to final database dump
+0044.789 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_comments.table.tmpr1609.gz (9/50/fopen): adding to final database dump
+0044.791 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_comments.table.gz (10/50/fopen): adding to final database dump
+0044.795 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_links.table.tmpr9.gz (11/50/fopen): adding to final database dump
+0044.797 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_links.table.gz (12/50/fopen): adding to final database dump
+0044.801 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_postmeta.table.tmpr8806.gz (13/50/fopen): adding to final database dump
+0044.804 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_postmeta.table.gz (14/50/fopen): adding to final database dump
+0044.807 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_posts.table.tmpr3998.gz (15/50/fopen): adding to final database dump
+0044.828 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_posts.table.gz (16/50/fopen): adding to final database dump
+0044.832 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_term_relationships.table.tmpr100001.gz (17/50/fopen): adding to final database dump
+0044.835 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_term_relationships.table.gz (18/50/fopen): adding to final database dump
+0044.838 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_term_taxonomy.table.tmpr49.gz (19/50/fopen): adding to final database dump
+0044.842 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_term_taxonomy.table.gz (20/50/fopen): adding to final database dump
+0044.845 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_termmeta.table.tmpr0.gz (21/50/fopen): adding to final database dump
+0044.850 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_termmeta.table.gz (22/50/fopen): adding to final database dump
+0044.853 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_terms.table.tmpr49.gz (23/50/fopen): adding to final database dump
+0044.857 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_terms.table.gz (24/50/fopen): adding to final database dump
+0044.859 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_circles.table.tmpr2.gz (25/50/fopen): adding to final database dump
+0044.863 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_circles.table.gz (26/50/fopen): adding to final database dump
+0044.866 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_maps.table.tmpr2.gz (27/50/fopen): adding to final database dump
+0044.869 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_maps.table.gz (28/50/fopen): adding to final database dump
+0044.873 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_markers.table.tmpr3.gz (29/50/fopen): adding to final database dump
+0044.878 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_markers.table.gz (30/50/fopen): adding to final database dump
+0044.884 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_polygones.table.tmpr2.gz (31/50/fopen): adding to final database dump
+0044.889 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_polygones.table.gz (32/50/fopen): adding to final database dump
+0044.892 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_polylines.table.tmpr2.gz (33/50/fopen): adding to final database dump
+0044.895 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_g_polylines.table.gz (34/50/fopen): adding to final database dump
+0044.898 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_ngg_album.table.tmpr3.gz (35/50/fopen): adding to final database dump
+0044.901 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_ngg_album.table.gz (36/50/fopen): adding to final database dump
+0044.903 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_ngg_gallery.table.tmpr13.gz (37/50/fopen): adding to final database dump
+0044.907 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_ngg_gallery.table.gz (38/50/fopen): adding to final database dump
+0044.910 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_ngg_pictures.table.tmpr298.gz (39/50/fopen): adding to final database dump
+0044.914 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_ngg_pictures.table.gz (40/50/fopen): adding to final database dump
+0044.917 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza.table.tmpr2.gz (41/50/fopen): adding to final database dump
+0044.921 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza.table.gz (42/50/fopen): adding to final database dump
+0044.925 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_categories.table.tmpr0.gz (43/50/fopen): adding to final database dump
+0044.929 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_categories.table.gz (44/50/fopen): adding to final database dump
+0044.932 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_category_maps.table.tmpr0.gz (45/50/fopen): adding to final database dump
+0044.936 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_category_maps.table.gz (46/50/fopen): adding to final database dump
+0044.940 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_maps.table.tmpr2.gz (47/50/fopen): adding to final database dump
+0044.943 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_maps.table.gz (48/50/fopen): adding to final database dump
+0044.947 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_polygon.table.tmpr0.gz (49/50/fopen): adding to final database dump
+0044.949 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_polygon.table.gz (50/50/fopen): adding to final database dump
+0044.952 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_polylines.table.tmpr0.gz (51/50/fopen): adding to final database dump
+0044.954 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db-table-gie_wpgmza_polylines.table.gz (52/50/fopen): adding to final database dump
+0044.965 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db.gz: finished writing out complete database file (864.3 KB)
+0044.991 (0) Total database tables backed up: 26 (backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db.gz, size: 885204, sha1: 72b8aa8cecbf0ae77e9576588c082135b17fdcfe, sha256: c47235dbc40b9807240f0c85b237511e72e6af3eae1b867d18456c5981b023c1)
+0045.006 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-plugins.zip: plugins: This file has already been successfully uploaded
+0045.009 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-themes.zip: themes: This file has already been successfully uploaded
+0045.011 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-uploads.zip: uploads: This file has already been successfully uploaded
+0045.015 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others.zip: others: This file has already been successfully uploaded
+0045.019 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-others2.zip: others: This file has already been successfully uploaded
+0045.023 (0) backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0045.026 (0) Saving backup history. Total backup size: 724.3 MB
+0045.035 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0045.048 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0045.051 (0) No remote despatch: user chose no remote backup service
+0045.056 (0) Recording as successfully uploaded: backup_2023-05-10-0124_Games_in_Education_f9f719f55fb8-db.gz
+0045.067 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0045.071 (0) Number of backup sets in history: 1; groups (db): 1
+0045.074 (0) Examining (for databases) backup set with group_id=0, nonce=f9f719f55fb8, datestamp=1683681854 (May 10 2023 01:24:14)
+0045.077 (0) This backup set is the backup set just made, so will not be deleted.
+0045.077 (0) Number of backup sets in history: 1; groups (files): 1
+0045.080 (0) Examining (for files) backup set with nonce=f9f719f55fb8, datestamp=1683681854 (May 10 2023 01:24:14)
+0045.080 (0) This backup set is the backup set just made, so will not be deleted.
+0045.082 (0) This backup set is the backup set just made, so will not be deleted.
+0045.083 (0) This backup set is the backup set just made, so will not be deleted.
+0045.083 (0) This backup set is the backup set just made, so will not be deleted.
+0045.083 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0045.085 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0045.094 (0) Resume backup (f9f719f55fb8, 0): finish run
+0045.109 (0) Decremented the semaphore (fd) by 1
+0045.118 (0) Semaphore (fd) unlocked
+0045.123 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0045.133 (0) No email will/can be sent - the user has not configured an email address.
+0045.137 (0) The backup apparently succeeded and is now complete
