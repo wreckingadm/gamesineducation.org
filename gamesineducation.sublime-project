@@ -2,10 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/Users/adm/Development/Projects/gamesineducation.org-tf"
+			"path": ".",
 		},
 		{
-			"path": "."
+			"path": "/Users/adm/Development/Projects/gamesineducation.org-tf",
 		}
-	]
+	],
 }
